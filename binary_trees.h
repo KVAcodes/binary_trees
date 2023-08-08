@@ -1,6 +1,5 @@
 #ifndef _BINARY_TREES_H_
 #define _BINARY_TREES_H_
-
 #include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -30,6 +29,12 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
 
 /* Task 2 */
+binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);
+
+/* Task 3 */
+void binary_tree_delete(binary_tree_t *tree);
+
+/* Task 4 */
 
 
 #endif /* _BINARY_TREES_H_ */
